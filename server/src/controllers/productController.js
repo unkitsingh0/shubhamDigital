@@ -1,3 +1,5 @@
+const Product = require("../models/Product");
+
 let handelNewProduct = async (req, res) => {
   let { category, productName, packSize, mrp, status } = req.body;
   try {
