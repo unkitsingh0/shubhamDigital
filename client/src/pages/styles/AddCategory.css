@@ -1,0 +1,24 @@
+.addProduct {
+  display: flex;
+}
+.sideBar {
+  flex: 0.2;
+}
+.main {
+  flex: 0.8;
+  margin: 1rem;
+}
+label {
+  font-family: "Times New Roman", Times, serif;
+}
+.btn {
+  border-radius: 7px;
+  margin-top: 10px;
+  width: 70px;
+}
+option {
+  font-family: "Times New Roman", Times, serif;
+}
+.form-select {
+  font-family: "Times New Roman", Times, serif;
+}

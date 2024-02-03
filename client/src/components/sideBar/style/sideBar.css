@@ -1,0 +1,33 @@
+.sideBarComponent {
+  height: 100vh;
+}
+
+.pageList {
+  padding: 0;
+}
+.pageList li {
+  list-style: none;
+
+  margin: 1rem 2px;
+  padding: 0.3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: large;
+  cursor: pointer;
+}
+
+.pageList li svg {
+  font-size: 25px;
+  margin-bottom: 3px;
+  margin-right: 10px;
+}
+
+.arrowIcon {
+  font-size: 25px !important;
+}
+
+.selectedPage {
+  background-color: #f3ecae;
+}
